@@ -1,0 +1,11 @@
+{application, erlpid, [
+    {description, "Erlang pid file writer"},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, { erlpid_app, []}},
+    {env, []}
+ ]}.
